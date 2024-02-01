@@ -38,7 +38,7 @@ html{
   
   .go-to-top-btn:hover{
     background-color:#3b413d;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
   }
   /* End of go to top button */
 
@@ -80,7 +80,7 @@ nav {
 
   nav .nav-links:hover{
       color:#08d665;
-      transition: 0.5s ease;
+      transition: 0.3s ease;
      
   }
   nav .nav-links:hover::after{
@@ -89,7 +89,7 @@ nav {
     border-bottom: 2px solid #08d665 ;
     width: 3%;
     margin-top: 35px;
-    transition:  0.5s ease;
+    transition:  0.3s ease;
   }
   
   nav li:first-child {
@@ -120,7 +120,7 @@ nav {
 
   .mobile-sidebar li {
     width: 100%; 
-    transition: 0.5s ease;
+    transition: 0.3s ease;
   }
   .mobile-sidebar li:hover {
     margin-left: 2%;
@@ -149,7 +149,7 @@ nav {
   }
   .mobile-sidebar .close-btn:hover{
     rotate: 180deg;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
  }
   .mobile-sidebar .close-btn path{
      fill: white;
@@ -180,7 +180,7 @@ nav {
   }
   .mobile-sidebar .social-icon .social-links:hover{
     background-color: #08d665;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
   }
 
   /* END OF NAVBAR */
@@ -226,7 +226,7 @@ margin-top: 5%;
 }
 .hero-content .btn-contact:hover{
     box-shadow: 0px 14px 30px rgba(8, 214, 101, 0.6);
-    transition: 0.5s ease;
+    transition: 0.3s ease;
     }
    
 .hero-content .btn-portfolio, .btn-downlaod{
@@ -311,7 +311,7 @@ margin-left: 12%;
     padding: 5% 0;
     backdrop-filter:blur(10px); 
     box-shadow: -10px 0  10px  rgba(0,0,0,0);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
 }
 .skills h2{
     font-size: 1rem;
@@ -321,7 +321,7 @@ margin-left: 12%;
 
 .skills .progress-bar{
    background-color:  #08d665;
-   color:#ffff;
+   color:black;
    text-align: right;
    font-weight: 700;
 }
@@ -375,7 +375,7 @@ margin-left: 12%;
 
 .services-section .services:hover{
 background-color: #088f45;
-transition: all 0.5s ease;
+transition: all 0.3s ease;
 }
 .services .service-icon{
    width: 50%;
@@ -385,7 +385,7 @@ transition: all 0.5s ease;
 }
 .services .service-icon:hover{
     transform: scale(1.1);
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 .services h2 p{
     margin: 2% 0;
@@ -431,7 +431,7 @@ transition: all 0.5s ease;
     width: 20rem;
     height: 15rem;
     opacity: 0;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
     background-color:rgba(54, 56, 55, 0.8);
   }
   
@@ -492,7 +492,7 @@ transition: all 0.5s ease;
   .contact-section .contact-me .social-links{
   color: white;
   font-size: 1.5rem;
-  margin: 1%;
+  margin: 2%;
   }
   .contact-section .contact-me .social-links:hover{
     color:#08d665;
@@ -586,9 +586,6 @@ transition: all 0.5s ease;
         font-size: 1.2rem;
     }
     
-    /* .Education-section P{
-        margin: 1% 0;
-    } */
 
     .services-section{
         padding: 15% 3% 10% 3%;
