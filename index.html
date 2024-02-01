@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+     
+    <!-- font family  lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+     <!-- font awsome icon -->
+     <script src="https://kit.fontawesome.com/cfe69855f7.js" crossorigin="anonymous"></script>
+
+    <!-- bootstap file -->
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!-- Type js libaray -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Main css file -->
+    <link rel="stylesheet" href="style.css">
+</head>  
+
+
+
+<body>
+
+      <!-- header section -->
+  <section class="header-section"> 
+    <!-- mobile navbar -->
+    <nav>  
+
+   <ul class="mobile-sidebar" >
+    
+      <li onclick="hidesidebar()"><a href="#" ><svg class="close-btn" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </a></li>
+         <li onclick="hidesidebar()"><a href="#home" > <i class="fa-solid fa-house services-icon" style="color: #ffffff;" ></i> HOME</a></li>
+          <li onclick="hidesidebar()"><a href="#about"><i class="fa-regular fa-address-card services-icon" style="color: #ffffff;"></i> ABOUT</a></li>
+          <li onclick="hidesidebar()"><a href="#services"><i class="fa-solid fa-gear services-icon" style="color: #ffffff;"></i> SERVICE</a></li>
+          <li onclick="hidesidebar()"><a href="#portfolio"> <i class="fa-solid fa-briefcase services-icon" style="color: #ffffff;"></i> PORTFOLIO</a></li>
+          <li onclick="hidesidebar()"><a href="#contact"><i class="fa-solid fa-phone services-icon" style="color: #ffffff;"></i> CONTACT</a></li>
+         
+          <div class="social-icon">
+            <a href="" class=" social-links"><i class="fa-brands fa-facebook-f "></i></a>   
+            <a href="" class=" social-links"><i class="fa-brands fa-instagram " ></i></a>  
+             <a href="" class=" social-links"><i class="fa-brands fa-linkedin " ></i></a>
+             <a href="tel:03556231954" class=" social-links"><i class="fa-brands fa-whatsapp" ></i></a> 
+            </div>
+      </ul>
+
+    
+
+  <!-- navbar -->
+  <ul>
+ 
+    <li><a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a></li> 
+      <li class="hideOnMobile"><a href="#home"  class="nav-links"> HOME</a></li>
+      <li class="hideOnMobile"><a href="#about" class="nav-links">ABOUT</a></li>
+      <li class="hideOnMobile"><a href="#services" class="nav-links ">SERVICES</a></li>
+      <li class="hideOnMobile"><a href="#portfolio"  class="nav-links">PORTFOLIO</a></li>
+      <li class="hideOnMobile"><a href="#contact"  class="nav-links">CONTACT</a></li>
+
+      <li class="menu-button" onclick="showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28" ><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+
+  </ul>
+</nav>
+
+
+<div class="container-fluid hero-section" id="home">
+  <div class="row">
+
+    <div class="col-lg-6 ">
+<div class="hero-content"> 
+      <h1>Hi!, I'm <span class="name"> Nasir Hussain</span></h1>
+       <!-- Element to contain animated typing -->
+      <h1>A <span id="element"></span></h1>
+     
+      <p>“We love what we do and we do what our clients love & work with great clients all over the world to create thoughtful and purposeful websites.”</p>
+    <a href="#contact"> <button type="button" class="btn btn-lg btn-outline-light btn-contact   ">Contact Me <i class=" fa-regular fa-circle-down " ></i> </button></a> 
+    <a href="#portfolio"> <button type="button" class="btn btn-lg btn-portfolio">Portfolio <i class="fa-regular fa-circle-down " ></i> </button></a> 
+ </div>
+</div>
+
+<div class="col-lg-6">
+<img class="hero-img" src="images/hero-img.png" alt="Nasir-hussain">
+<div class="heart-blob"> 
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800"><g fill=" #08d665" stroke-width="10" stroke=" #08d665" id="heart"><path d="M400 200C650 0 800 400 400 700 0 400 150 0 400 200Z" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+</div> 
+  </div>
+
+</div>
+
+  </div>
+</div>
+  </section>
+
+<!-- End of header section -->
+
+
+    <!--go to top button  -->
+ <button class="go-to-top-btn">
+    <i class="fa-solid fa-arrow-up"></i> 
+   </button>
+<!--End of go to top button  -->
+
+
+<!-- About section -->
+<section class="about-section" id="about">
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-lg-6">
+            <div class="about-me">
+     <h5>About </h5> 
+     <img class="about-img" src="images/about-img.jpg" alt="img">
+     
+    </div>
+     </div>
+
+    
+     <div class="col-lg-6">
+         <div class="about-discription">
+            <h1>About Me </h1>
+     <p>I am Nasir Hussain, a software Engineer and a Senior Web Developer with over 5 years of experience in designing and developing custom websites. With a strong background in web development, I have successfully delivered numerous custom websites across diverse industries. I also specialize in working with various categories of projects on WordPress, including E-commerce and business websites. Additionally, I offer services in Graphic Design. If you require the expertise of a skilled and communicative designer, please don't hesitate to hire me. Your satisfaction is my top priority!</p>
+     <a href="/images/Nasir.cv.pdf" download> <button type="button" class="btn btn-lg btn-downlaod">Download CV <i class="fa-regular fa-circle-down " ></i> </button></a> 
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- End of About section -->
+
+
+
+<!-- skill section -->
+
+<section class="skills-section">
+<div class="skills">
+<div class="container">
+   <div class="row">
+       <h5>Skills</h5>
+    <div class="col-lg-6">
+        <h2>HTML</h2>
+        <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 95%">95%</div>
+          </div>
+
+          <h2>CSS</h2>
+          <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 95%">95%</div>
+          </div>
+
+          <h2>Bootstrap</h2>
+          <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 90%">90%</div>
+            </div>
+
+          <h2>JQuery</h2>
+          <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 85%">85%</div>
+          </div>
+          <h2>Photoshop</h2>
+          <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 75%">75%</div>
+          </div>
+
+    </div>
+
+
+
+
+    <div class="col-lg-6">
+      
+
+          <h2>Javascript</h2>
+          <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%">80%</div>
+          </div>
+
+
+          <h2>React.JS</h2>
+          <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%">80%</div>
+          </div>
+
+          <h2>Node.JS</h2>
+          <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 75%">75%</div>
+          </div>
+
+          <h2>MongoDB</h2>
+          <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 75%">75%</div>
+          </div>
+
+          <h2>Wordpress/cms</h2>
+          <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 85%">85%</div>
+          </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+<!--End of skill section -->
+
+
+<!-- Education section -->
+
+<section class="Education-section">
+<div class="container">
+    <div class="row">
+         <h5>Education</h5>
+        <h1>Education</h1>
+
+        <div class="col-lg-6">
+            <h4>AIMS School and Collage</h4>
+            <p>Fsc pre Engineering</p>
+            <div class="Education-years">
+            <p>2017-2019</p>
+        </div>
+             </div>
+         
+             <div class="col-lg-6">
+                <h4>Mirpur University Of Science And Technology (Must),AJK,Pakistan</h4>
+                <p>BSE Software Engineering</p>
+                 <div class="Education-years">
+                <p>2020-2024</p> 
+            </div>
+
+                  </div>
+    </div>
+</div>
+</section>
+<!-- End of Education section -->
+
+
+
+
+<!-- services section -->
+
+<section class="services-section" id="services">
+    <div class="container">
+        <div class="row">
+            <h5>Services</h5>
+             <h1> MY SERVICES</h1>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="services">
+                <img class="service-icon" src="images/web-development.jpg" alt="website">
+                <h2>Web development Services</h2>
+                <p>Custom website development with all essential functionality.</p>
+            </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 ">
+                <div class="services">
+                    <img class="service-icon" src="images/wordpress.jpg" alt="Wordpress">
+                    <h2>Wordpress website/cms</h2>
+                <p>wordpress website development with all essential functionality.</p>
+                </div>
+            </div>
+           
+            <div class="col-lg-4 col-md-6">
+                <div class="services">
+                    <img  class="service-icon"  src="images/Graphic design.jpg" alt="graphics">
+                    <h2>Graphic Designing Services</h2>
+                <p>Graphic Designing Services inludes Logo Design, social media post design, website banner design, Google Ads banner and many more.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End of services section -->
+
+
+<!-- portfolio section -->
+<section class="portfolio-section" id="portfolio">
+ <div class="container">
+     <div class="row">
+     <h5>Portfolio</h5>
+     <h1>MY Works</h1>
+
+     <!-- custom website projects -->
+
+     <h2>Custom websites projects</h2>
+     <div class="col-lg-4 col-md-6">
+        <a href="https://nasirqureshi-github.github.io/NTSTS.com/" target="_blank">
+        <div class="overlay-container">
+         <img class="web-images" src="images/ntsts.png" alt="image">
+         <div class="middle">
+           <div class="text">Visit Site</div> 
+        </div>
+    </div>
+</a>
+     </div>
+
+
+     <div class="col-lg-4 col-md-6">
+<a href="https://nasirqureshi-github.github.io/dogyweb/" target="_blank">
+        <div class="overlay-container">
+         <img class="web-images" src="images/dogyweb.png" alt="image">
+         <div class="middle">
+           <div class="text">Visit Site</div> 
+        </div>
+    </div>
+</a>
+     </div>
+
+
+     <div class="col-lg-4 col-md-6">
+<a href="https://nasirqureshi-github.github.io/cabhub/" target="_blank">
+        <div class="overlay-container">
+        <img class="web-images" src="images/cahub.png" alt="image">
+         <div class="middle">
+           <div class="text">Visit Site </div> 
+        </div>  
+    </div>
+</a>
+     </div>
+
+     <div class="col-lg-4 col-md-6">
+<a href="https://nasirqureshi-github.github.io/tin-dog/" target="_blank">
+        <div class="overlay-container">
+        <img class="web-images" src="images/Tin-dog.png" alt="image">
+         <div class="middle">
+           <div class="text">Visit Site</div> 
+        </div>
+    </div>
+</a>
+     </div>
+
+   
+   <!-- wordpress projects -->
+   <h2>Wordpress projects</h2>
+   <div class="col-lg-4 col-md-6">
+      <a href="https://bydating.net/en/homepage-2/" target="_blank">
+      <div class="overlay-container">
+       <img class="web-images" src="images/dating-website.png" alt="image">
+       <div class="middle">
+         <div class="text">Visit Site</div> 
+      </div>
+  </div>
+</a>
+   </div>
+
+
+   <div class="col-lg-4 col-md-6">
+<a href="https://marahiholdings.com/" target="_blank">
+      <div class="overlay-container">
+       <img class="web-images" src="images/marahiholding.png" alt="image">
+       <div class="middle">
+         <div class="text">Visit Site</div> 
+      </div>
+  </div>
+</a>
+   </div>
+
+
+   <div class="col-lg-4 col-md-6">
+<a href="https://sharqseas.com/" target="_blank">
+      <div class="overlay-container">
+      <img class="web-images" src="images/sharqsea.png" alt="image">
+       <div class="middle">
+         <div class="text">Visit Site </div> 
+      </div>  
+  </div>
+</a>
+   </div>
+
+   <div class="col-lg-4 col-md-6">
+<a href="https://mehthab.com/" target="_blank">
+      <div class="overlay-container">
+      <img class="web-images" src="images/Methab.png" alt="image">
+       <div class="middle">
+         <div class="text">Visit Site</div> 
+      </div>
+  </div>
+</a>
+   </div>
+
+   
+    </div>
+    </div>
+ 
+</section>
+<!-- End of portfolio section -->
+
+
+<!-- Contact section -->
+<section class="contact-section" id="contact">
+<div class="container">
+   
+    <div class="row">
+        <h5>Contact</h5>
+        <h1>Contact Me</h1>
+       
+        <div class="col-lg-6">
+            <div class="contact-me">
+               <div> <i class="fa-solid fa-location-dot contact-icons"></i></div>
+                    <h3>My Address</h3>
+                    <p>Allama Iqbal Road , New Mirpur City, AJ&k</p>  
+                </div>    
+        </div>
+
+
+        <div class="col-lg-6">
+            <div class="contact-me">
+                <div><i class="fa-solid fa-share-nodes contact-icons"></i></div>
+            <h3>Social Profiles</h3>
+            <a href="" class="social-links"><i class="fa-brands fa-facebook-f"></i></a>   
+            <a href="" class=" social-links"><i class="fa-brands fa-instagram " ></i></a>  
+             <a href="" class=" social-links"><i class="fa-brands fa-linkedin " ></i></a>
+             
+             <a href="tel:03556231954" class=" social-links"><i class="fa-brands fa-whatsapp" ></i></a> 
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-6">
+            <div class="contact-me">
+                <div><i class="fa-solid fa-envelope contact-icons" ></i></div>
+            <h3>Email Me</h3>
+            <p>nasirq206@gmail.com</p>   
+        </div>   
+</div>
+
+
+<div class="col-lg-6">    
+    <div class="contact-me"> 
+        <div><i class="fa-brands fa-whatsapp contact-icons" ></i></div>
+    <h3>Call Me</h3>
+    <p>+923556231954</p>    
+</div>    
+</div>
+
+
+    </div>
+</div>
+
+</section>
+
+<!-- End of contact section -->
+
+
+
+<!-- Footer section -->
+ <footer>
+     <div>
+        <p>&copy; 2024. ALl right Reserved </p> 
+     </div>
+ </footer>
+
+ <!-- End Footer section -->
+
+
+
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Software Engineer ^700', 'Mern Stack Developer ^700','Wordpress Developer ^700'],
+      typeSpeed: 70,
+      loop: true, // Set loop to true for continuous typing
+    });
+  </script>
+
+
+<!-- bootstarp js file -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+   <!-- javascript file -->
+   <script src="index.js"></script>
+</body>
+</html>
