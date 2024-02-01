@@ -527,7 +527,6 @@ transition: all 0.3s ease;
       .menu-button {
         display: block;
         margin-top: 2%;
-        color: white;
         background-color: #08d665;
       }
     
@@ -537,7 +536,6 @@ transition: all 0.3s ease;
       }
       .mobile-sidebar {
         width: 80%;
-        transition: all 0.8s ease;
       }
       .mobile-sidebar .social-icon{
           display: flex;
